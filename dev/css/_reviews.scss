@@ -1,0 +1,248 @@
+.reviews {
+  padding-top: 69px;
+  padding-bottom: 77px;
+
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #E19D9C;
+    margin-bottom: 33px;
+  }
+
+  .slick-track {
+    display: flex;
+  }
+
+  .item {
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF;
+    padding: 16px 0 36px 38px;
+    margin: 25px 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+
+    p {
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+      margin-bottom: 20px;
+      max-width: 290px;
+    }
+
+    .image {
+      margin-right: 13px;
+      width: 174px;
+      height: 174px;
+    }
+
+    .bottom {
+      display: flex;
+      align-items: flex-end;
+    }
+
+    .info {
+      margin-bottom: 20px;
+    }
+
+    .name {
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      color: #E19D9C;
+      margin-bottom: 0;
+    }
+
+    .town {
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 22px;
+      color: #E19D9C;
+      margin-bottom: 30px;
+    }
+  }
+
+  .reviews-slider {
+    outline: none !important;
+  }
+
+  ///slick-prev slick-next
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 1px;
+  }
+
+  .slick-prev {
+    left: -25px;
+  }
+
+  .slick-next {
+    right: -25px;
+  }
+
+  .arrow {
+    max-width: 25px;
+    max-height: 75px;
+  }
+
+  .slick-prev, .slick-next {
+    top: 50%;
+    font-size: 16px;
+    line-height: 0;
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 75px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #918C8C;
+    outline: none;
+    background: transparent;
+    z-index: 1;
+  }
+
+  .slick-prev:active, .slick-next:active {
+    //color: #fff;
+    //border: 1px solid #2e9233;
+    //background: #2e9233;
+  }
+  ///slick-prev slick-next end
+
+  //media
+
+  @media (max-width: 1140px) {
+    .slick-prev.slick-arrow {
+      left: 41%;
+    }
+
+    .slick-next {
+      right: 41%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding: 40px 0 80px 0;
+
+    h4 {
+      margin-bottom: -20px;
+    }
+
+    .slick-prev, .slick-next {
+      bottom: -19%;
+    }
+  }
+
+  @media (max-width: 880px) {
+    .slick-prev.slick-arrow {
+      left: 39%;
+    }
+
+    .slick-next {
+      right: 39%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    h4 {
+      font-size: 38px;
+      line-height: 115.5%;
+    }
+  }
+
+  @media (max-width: 755px) {
+    .slick-prev.slick-arrow {
+      left: 37%;
+    }
+
+    .slick-next {
+      right: 37%;
+    }
+  }
+
+  @media (max-width: 700px) {
+
+    .image {
+      margin: 0 10px;
+    }
+
+    .icon-left:before, .icon-right:before {
+      font-size: 16px;
+    }
+
+    .slick-prev, .slick-next {
+      width: 55px;
+      height: 55px;
+      &:after {
+        height: 41px;
+        width: 41px;
+      }
+    }
+  }
+
+  @media (max-width: 690px) {
+    padding-bottom: 100px;
+
+    h4 {
+      margin-bottom: 10px;
+    }
+
+    .item {
+      margin: 45px;
+    }
+
+    .image {
+      margin: 0;
+    }
+
+    .slick-prev.slick-arrow {
+      left: 35%;
+    }
+
+    .slick-next {
+      right: 35%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    h4 {
+      font-size: 26px;
+      line-height: 115.5%;
+    }
+  }
+
+  @media (max-width: 450px) {
+    padding-bottom: 60px;
+
+    .item {
+      box-shadow: none;
+      margin: 0;
+    }
+
+    .slick-prev, .slick-next {
+      bottom: -18%;
+    }
+  }
+
+  @media (max-width: 410px) {
+    .slick-prev.slick-arrow {
+      left: 29%;
+    }
+
+    .slick-next {
+      right: 29%;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.contacts {
+  padding-top: 74px;
+  padding-bottom: 85px;
+
+  .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 380px;
+    max-width: 380px;
+    width: 100%;
+    text-decoration: none;
+    background: #3A5898;
+    cursor: pointer;
+  }
+
+  .telegram:hover {
+    background: #5177CA;
+  }
+
+  .viber:hover {
+    background: #FFB1AC !important;
+  }
+
+  .phone:hover {
+    background: #5177CA;
+  }
+
+    h6 {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      text-align: center;
+      color: #FFFFFF;
+      margin-bottom: 0;
+    }
+
+  .line {
+    height: 3px;
+    width: 66px;
+    background: #5F9FFF;
+  }
+
+    p, p a {
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #FFFFFF;
+      margin-bottom: 0;
+      text-decoration: none;
+    }
+
+
+  //media
+
+  @media (max-width: 991px) {
+    padding: 40px 0 20px 0;
+
+    .item {
+      margin-bottom: 30px;
+    }
+  }
+}

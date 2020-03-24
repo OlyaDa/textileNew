@@ -1,0 +1,127 @@
+.companies {
+  padding: 43px 0 150px 0;
+  background: #fff;
+  position: relative;
+
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #E2B56C;
+    margin-bottom: 119px;
+  }
+
+  .image {
+    margin: 0 70px;
+  }
+
+  ///slick-prev slick-next
+
+  .slick-prev:before, .slick-next:before {
+    font-size: 1px;
+  }
+
+  .slick-prev.slick-arrow {
+    left: -45px;
+  }
+
+  .slick-next {
+    right: -45px;
+  }
+
+  .arrow {
+    max-width: 25px;
+    max-height: 75px;
+  }
+
+  .slick-prev, .slick-next {
+    top: 50%;
+    font-size: 16px;
+    line-height: 0;
+    position: absolute;
+    display: block;
+    width: 25px;
+    height: 75px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: #918C8C;
+    outline: none;
+    background: transparent;
+    z-index: 1;
+  }
+
+  .slick-prev:active, .slick-next:active {
+    //color: #fff;
+    //border: 1px solid #2e9233;
+    //background: #2e9233;
+  }
+  ///slick-prev slick-next end
+
+  .companies-slider {
+    outline: none !important;
+  }
+
+  //media
+
+  @media (max-width: 1350px) {
+    .slick-prev.slick-arrow {
+      left: 0;
+    }
+
+    .slick-next {
+      right: 0;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    h4 {
+      margin-bottom: 20px;
+    }
+
+    .slick-prev, .slick-next {
+      bottom: 23%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    h4 {
+      font-size: 38px;
+      line-height: 115.5%;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media (max-width: 700px) {
+
+    .icon-left:before, .icon-right:before {
+      font-size: 16px;
+    }
+
+    .slick-prev:before, .slick-next:before {
+      font-size: 0;
+    }
+
+    .slick-prev, .slick-next {
+      width: 55px;
+      height: 55px;
+      &:after {
+        height: 41px;
+        width: 41px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    h4 {
+      font-size: 26px;
+      line-height: 115.5%;
+    }
+  }
+}

@@ -1,0 +1,239 @@
+.departure {
+  padding-top: 109px;
+  padding-bottom: 115px;
+  position: relative;
+  overflow: hidden;
+  background: url("../../public/images/bg-departure.png"), center no-repeat, #fff;
+  background-size: cover;
+
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: #424242;
+    margin-bottom: 62px;
+  }
+
+  .sub-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 32px;
+    color: #E19D9C;
+    margin-bottom: 54px;
+  }
+
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    margin-bottom: 25px;
+  }
+
+  .button {
+    margin-top: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+    .btn {
+      background: #FFFEFE;
+      border: 2px solid rgba(250, 150, 146, 0.9);
+      border-radius: 52px;
+      font-family: 'Montserrat Alternates', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      color: #1A405F;
+      margin-bottom: 0;
+      box-shadow: none !important;
+      outline: none !important;
+      padding: 18px 58px;
+
+      &:hover {
+        background: rgba(250, 150, 146, 0.9);
+      }
+    }
+  }
+
+  .text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 0;
+  }
+
+  //media
+
+  @media (max-width: 1150px) {
+    .why-slider {
+      margin-left: 8%;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .why-slider {
+      margin-left: -4%;
+    }
+  }
+
+  @media (max-width: 991px) {
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+    .item .arrow {
+      margin-top: 0;
+    }
+
+    .item.middle {
+      margin-top: 0;
+    }
+
+    h4 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .sub-title {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      margin: 20px auto;
+    }
+
+    .exit {
+      text-align: center;
+    }
+
+    .slick-prev.slick-arrow {
+      left: 36%;
+    }
+
+    .slick-next {
+      right: 38%;
+    }
+
+    .why-slider {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+    }
+
+    .item {
+      text-align: center;
+      margin-left: 0;
+      margin-bottom: 20px;
+
+      p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .icon-arrow2 {
+         display: none;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    padding-bottom: 60px;
+
+    h4 {
+      font-size: 38px;
+      line-height: 115.5%;
+    }
+  }
+
+
+  @media (max-width: 660px) {
+    .why-slider {
+      width: 100%;
+
+      .image {
+        position: relative;
+        &:before {
+          content: "";
+          width: 85%;
+          height: 85%;
+          border-radius: 50%;
+          border: 2px solid #FFFFFF;
+          background: transparent;
+          position: absolute;
+          margin: auto;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 598px) {
+
+    .icon-left:before, .icon-right:before {
+      font-size: 16px;
+    }
+
+    .slick-prev:before, .slick-next:before {
+      font-size: 0;
+    }
+
+    .slick-prev.slick-arrow {
+      left: 34%;
+    }
+
+    .slick-next {
+      right: 34%;
+    }
+
+    .slick-prev, .slick-next {
+      bottom: -50px;
+      width: 55px;
+      height: 55px;
+      &:after {
+        height: 41px;
+        width: 41px;
+      }
+    }
+  }
+
+  @media (max-width: 480px) {
+    h4 {
+      font-size: 26px;
+      line-height: 115.5%;
+    }
+  }
+
+  @media (max-width: 380px) {
+    .slick-prev.slick-arrow {
+      left: 30%;
+    }
+
+    .slick-next {
+      right: 30%;
+    }
+
+    .button {
+      .btn {
+        width: 100%;
+        padding: 12px 0;
+      }
+    }
+  }
+}
