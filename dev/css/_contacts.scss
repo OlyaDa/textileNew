@@ -61,10 +61,57 @@
   //media
 
   @media (max-width: 991px) {
-    padding: 40px 0 20px 0;
+    padding: 43px 0 50px 0;
+
+    .icon-phone-alt:before {
+      font-size: 57px;
+    }
+    .icon-phone-volume:before {
+      font-size: 57px;
+    }
+    .icon-telegram-plane:before {
+      font-size: 57px;
+    }
+
+    h6 {
+      font-size: 18px;
+      line-height: 22px;
+    }
+
+    p, p a {
+      font-size: 13px;
+      line-height: 16px;
+      max-width: 127px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    padding: 39px 0 57px 0;
+
+    .icon-phone-alt:before {
+      font-size: 70px;
+    }
+    .icon-phone-volume:before {
+      font-size: 82px;
+    }
+    .icon-telegram-plane:before {
+      font-size: 70px;
+    }
+
+    p, p a {
+      font-size: 12px;
+      line-height: 15px;
+      max-width: 245px;
+    }
 
     .item {
-      margin-bottom: 30px;
+      margin-bottom: 23px;
+      max-height: 280px;
+      max-width: 294px;
     }
+  }
+
+  @media (max-width: 480px) {
+    padding: 39px 0 33px 0;
   }
 }

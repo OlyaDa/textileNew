@@ -65,6 +65,14 @@ $('.why-slider').slick({
     autoplay: false,
     prevArrow:'<button class="slick-arrow slick-prev"> <img src="images/al.png" class="arrow"> </img> </button>',
     nextArrow:'<button class="slick-arrow slick-next"> <img src="images/ar.png" class="arrow"> </img></button>',
+    responsive: [
+        {
+            breakpoint: 481,
+            settings: {
+                arrows: false,
+            }
+        },
+    ]
 });
 
 //slider for "companies"
@@ -83,13 +91,16 @@ $('.companies-slider').slick({
             breakpoint: 992,
             settings: {
                 slidesToShow: 2,
+                arrows: true,
             }
         },
 
         {
-            breakpoint: 577,
+            breakpoint: 541,
             settings: {
                 slidesToShow: 1,
+                arrows: false,
+                dots: true,
             }
         },
     ]
@@ -106,6 +117,23 @@ $('.examples-slider').slick({
     autoplay: false,
     prevArrow:'<button class="slick-arrow slick-prev"> <img src="images/al.png" class="arrow"> </img> </button>',
     nextArrow:'<button class="slick-arrow slick-next"> <img src="images/ar.png" class="arrow"> </img></button>',
+    responsive: [
+        {
+            breakpoint: 577,
+            settings: {
+                slidesToShow: 1,
+                arrows: true,
+            }
+        },
+
+        {
+            breakpoint: 481,
+            settings: {
+                slidesToShow: 1,
+                arrows: false,
+            }
+        },
+    ]
 });
 
 //slider for "reviews"
@@ -119,6 +147,23 @@ $('.reviews-slider').slick({
     autoplay: false,
     prevArrow:'<button class="slick-arrow slick-prev"> <img src="images/al.png" class="arrow"> </img> </button>',
     nextArrow:'<button class="slick-arrow slick-next"> <img src="images/ar.png" class="arrow"> </img></button>',
+    responsive: [
+        {
+            breakpoint: 992,
+            settings: {
+                slidesToShow: 2,
+                arrows: true,
+            }
+        },
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+                arrows: false,
+                dots: true,
+            }
+        },
+    ]
 });
 
 // setNameScroll

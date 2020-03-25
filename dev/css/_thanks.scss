@@ -1,57 +1,51 @@
 .thanks {
   position: relative;
   min-height: 100vh;
-  background: #FFFFFF;
+  background: linear-gradient(180deg, rgba(58, 51, 51, 0.9) 0%, rgba(36, 16, 16, 0.9) 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
 
   h4 {
-    font-family: 'Oranienbaum', serif;
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
-    font-weight: normal;
-    font-size: 39px;
-    line-height: 146.5%;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 37px;
     text-align: center;
-    color: #202020;
-    margin: 0 auto 43px auto;
+    margin-bottom: 64px;
+    color: #FFFFFF;
     max-width: 915px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-style: normal;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 175.5%;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
     text-align: center;
-    letter-spacing: 0.055em;
-    color: #000000;
-    margin-bottom: 36px;
+    color: #FCFCFC;
+    margin-bottom: 25px;
   }
 
   .social {
     display: flex;
-    justify-content: space-evenly;
-    width: 50%;
+    justify-content: space-between;
+    width: 168px;
     margin: 0 auto;
+    align-items: baseline;
 
-    .circle {
-      width: 60px;
-      height: 60px;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background: #202020;
+    .fa-facebook-square {
+      font-size: 69px;
+      color: #2B2C67;
+      text-shadow: 0 0 30px rgba(255, 255, 255, 0.88);
     }
 
     a {
       text-decoration: none;
-
-      &:hover .circle {
-        background: #464646;
-      }
     }
   }
 
@@ -60,29 +54,22 @@
 
   @media (max-width: 991px) {
     h4 {
-     max-width: 100%;
+      max-width: 100%;
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 570px) {
     h4 {
-      font-size: 38px;
+      font-size: 23px;
       line-height: 115.5%;
     }
   }
 
   @media (max-width: 480px) {
     h4 {
-      font-size: 26px;
+      font-size: 20px;
       line-height: 115.5%;
     }
   }
 
-  @media (max-width: 380px) {
-    p {
-      br {
-        display: none;
-      }
-    }
-  }
 }

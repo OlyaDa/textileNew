@@ -116,7 +116,7 @@
                     <div class="button">
                         <a href="#popup" class="btn popup-link"
                            onclick="setNameScroll('Узнать стоимость будущих штор, первый скролл');">
-                            Узнать стоимость будущих штор
+                            Узнать стоимость <span>будущих</span> штор
                         </a>
                     </div>
                 </div>
@@ -162,8 +162,8 @@
                     </a>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-6 pad">
+                <div class="row d-md-flex align-items-md-center">
+                    <div class="col-lg-6 col-md-7 order-md-1 order-sm-2 order-2 pad">
                         <div class="why-slider">
                             <div class="image">
                                 <img src="images/why-slider.png" alt="студия">
@@ -176,21 +176,21 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 pad2">
+                    <div class="col-lg-6 col-md-5 order-md-2 order-sm-1 order-1 pad2">
                         <h4>
-                            Почему именно студия “Кристина”
+                            Почему именно студия <span>“Кристина”</span>
                         </h4>
                         <p class="text">
                             Мы на рынке штор, солнцезащитных систем и текстиля уже более 20 лет. За это время мы
                             получили огромный опыт работы с индивидуальными проектами, достигли высокого качества нашей
                             продукции и предоставляемого сервиса.
                         </p>
-                        <p class="text">
+                        <p class="text text2">
                             Являемся официальным представителями крупнейшего производителя солнцезащитных систем и
                             организовываем прямые поставки тканей из Германии, Италии, Турции, и всё это в самые
                             кратчайшие сроки.
                         </p>
-                        <div class="cards">
+                        <div class="cards d-lg-block d-none">
                             <div class="item-row">
                                 <div class="item">
                                     <div class="icon">
@@ -201,7 +201,7 @@
                                         <p>Пошили более <br> 950 проектов</p>
                                     </div>
                                 </div>
-                                <div class="item">
+                                <div class="item item2">
                                     <div class="icon">
                                         <span class="icon-machine"></span>
                                     </div>
@@ -222,7 +222,7 @@
                                         <p>Более 75 фабрик</p>
                                     </div>
                                 </div>
-                                <div class="item">
+                                <div class="item item2">
                                     <div class="icon">
                                         <span class="icon-hand"></span>
                                     </div>
@@ -234,13 +234,64 @@
                             </div>
                         </div>
 
-                        <div class="button show">
+                        <div class="button show d-lg-block d-none">
                             <a href="#popup" class="btn popup-link"
                                onclick="setNameScroll('Посетить шоу-рум, Студия Кристина');">
                                 Посетить шоу-рум
                             </a>
                         </div>
                     </div>
+                </div>
+
+                <div class="cards d-lg-none d-md-block">
+                    <div class="item-row">
+                        <div class="item">
+                            <div class="icon">
+                                <span class="icon-diploma"></span>
+                            </div>
+                            <div class="">
+                                <h6>БОЛЕЕ 20 ЛЕТ <br> ОПЫТ РАБОТЫ</h6>
+                                <p>Пошили более <br> 950 проектов</p>
+                            </div>
+                        </div>
+                        <div class="item item2">
+                            <div class="icon">
+                                <span class="icon-machine"></span>
+                            </div>
+                            <div class="">
+                                <h6>СОБСТВЕННЫЙ <br> ЦЕХ</h6>
+                                <p>Европейское <br> качество <br> оборудования</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item-row">
+                        <div class="item">
+                            <div class="icon">
+                                <span class="icon-rulon"></span>
+                            </div>
+                            <div class="">
+                                <h6>ТКАНИ ОТ <br> ПРОИЗВОДИТЕЛЕЙ</h6>
+                                <p>Более 75 фабрик</p>
+                            </div>
+                        </div>
+                        <div class="item item2">
+                            <div class="icon">
+                                <span class="icon-hand"></span>
+                            </div>
+                            <div class="">
+                                <h6>ИНДИВИДУАЛЬНЫЙ <br> ПОДХОД</h6>
+                                <p>Каждый заказчик <br> получает то что <br> желает и немного <br> больше</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="button show d-lg-none d-md-block">
+                    <a href="#popup" class="btn popup-link"
+                       onclick="setNameScroll('Посетить шоу-рум, Студия Кристина');">
+                        Посетить шоу-рум
+                    </a>
                 </div>
             </div>
         </section>
@@ -253,11 +304,15 @@
                     Выезд Дизайнера до 3 часов от заявки до замера
                 </h4>
 
-                <div class="row">
-                    <div class="col-lg-6">
+                <p class="sub-title d-lg-none d-md-none d-block">
+                    Что будет после <span>БЕСПЛАТНОГО выезда:</span>
+                </p>
 
-                        <p class="sub-title">
-                            Что будет после БЕСПЛАТНОГО выезда:
+                <div class="row">
+                    <div class="col-md-6 order-md-1 order-2">
+
+                        <p class="sub-title d-lg-block d-md-block d-none">
+                            Что будет после <span>БЕСПЛАТНОГО выезда:</span>
                         </p>
 
                         <p>1. Дизайнер покажет образцы тканей</p>
@@ -271,16 +326,17 @@
                             </a>
                         </div>
 
-                        <p class="text">Выезд без выходных с 09:00 до 18:00</p>
+                        <p class="text d-md-none d-none d-lg-block">Выезд без выходных с 09:00 до 18:00</p>
 
 
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-md-6 order-md-2 order-1 container-img">
                         <div class="image">
                             <img src="images/departure.png" alt="Выезд Дизайнера">
                         </div>
                     </div>
                 </div>
+                <p class="text d-md-block d-lg-none bottom-text">Выезд без выходных с 09:00 до 18:00</p>
             </div>
         </section>
 
@@ -291,8 +347,8 @@
                 <h4>ПРЕДЛАГАЕМ ТОЛЬКО ЭКСКЛЮЗИВНЫЕ МОДЕЛИ, РАЗРАБОТАННЫЕ НАШИМИ ДИЗАЙНЕРАМИ</h4>
                 <h5 class="sub-title">В наличии всегда широкий выбор европейских тканей под любой вкус и фасон</h5>
 
-                <div class="row">
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="row d-md-flex justify-content-md-around">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <a href="#popup" class="btn popup-link"
                            onclick="setNameScroll('Шторы для спальни, Эксклюзивные модели');">
                             <div class="item">
@@ -304,7 +360,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <a href="#popup" class="btn popup-link"
                            onclick="setNameScroll('Шторы для гостиной, Эксклюзивные модели');">
                             <div class="item">
@@ -316,7 +372,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <a href="#popup" class="btn popup-link"
                            onclick="setNameScroll('Шторы для кухни, Эксклюзивные модели');">
                             <div class="item">
@@ -328,7 +384,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <a href="#popup" class="btn popup-link"
                            onclick="setNameScroll('Шторы для кабинета, Эксклюзивные модели');">
                             <div class="item">
@@ -340,7 +396,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <a href="#popup" class="btn popup-link"
                            onclick="setNameScroll('Шторы для детской, Эксклюзивные модели');">
                             <div class="item">
@@ -352,7 +408,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <a href="#popup" class="btn popup-link"
                            onclick="setNameScroll('Шторы для ресторана, Эксклюзивные модели');">
                             <div class="item">
@@ -364,7 +420,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <a href="#popup" class="btn popup-link"
                            onclick="setNameScroll('Шторы для отелей, Эксклюзивные модели');">
                             <div class="item">
@@ -376,7 +432,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
                         <a href="#popup" class="btn popup-link"
                            onclick="setNameScroll('Шторы для офисов, Эксклюзивные модели');">
                             <div class="item">
@@ -391,8 +447,17 @@
 
                 <form class="order-main">
                     <h4 class="form-title"> Сделаем вашу комнату уютнее. Подобрать шторы сейчас! </h4>
-                    <input placeholder="имя" type="text" name="name" required>
-                    <input placeholder="телефон" type="tel" name="phone" class="phoneidcl" required>
+                    <div class="form-inp">
+                        <div class="inputs">
+                            <input placeholder="имя" type="text" name="name" required>
+                            <input placeholder="телефон" type="tel" name="phone" class="phoneidcl" required>
+                        </div>
+
+                        <button class="disbutt" disabled>
+                            <span class="btn">Подобрать</span>
+                        </button>
+                    </div>
+
                     <input name="order" type="hidden" value="Подобрать шторы сейчас!">
 
                     <input type="hidden" name="utm_source" value="<?php echo $_GET['utm_source']; ?>">
@@ -401,9 +466,6 @@
                     <input type="hidden" name="utm_content" value="<?php echo $_GET['utm_content']; ?>">
                     <input type="hidden" name="utm_term" value="<?php echo $_GET['utm_term']; ?>">
 
-                    <button class="disbutt" disabled>
-                        <span class="btn">Заказать</span>
-                    </button>
                 </form>
 
             </div>
@@ -440,7 +502,7 @@
                 <h4> ПОЛНЫЙ КОМПЛЕКС УСЛУГ ПО ПОШИВУ И УХОДУ ЗА ШТОРАМИ</h4>
 
                 <div class="services-inner">
-                    <div class="d-flex justify-content-around holder">
+                    <div class="d-flex holder">
                         <div class="item">
                             <p>Выезд дизайнера на дом</p>
                             <div class="image">
@@ -456,7 +518,7 @@
                         </div>
                     </div>
 
-                    <div class="d-flex justify-content-around holder">
+                    <div class="d-flex holder">
                         <div class="item">
                             <p>Пошив и навешивание изделий</p>
                             <div class="image">
@@ -480,7 +542,9 @@
         <section class="washing">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-md-6">
+                        <h4 class="d-md-none d-lg-none d-block">Хотите постирать шторы?</h4>
+
                         <p>Стирка штор – очень деликатное дело, поэтому не забывайте об услугах химчистки. Ведь вы же
                             хотите прослыть прекрасной хозяйкой? Наши специалисты сделают это за вас. <br>
                             Прежде всего, нужно помнить, что шторы стоит стирать два раза или три раза в год. В другое
@@ -488,8 +552,8 @@
                             утром, и ветер поможет убрать с ткани пыль.</p>
                     </div>
 
-                    <div class="col-lg-6">
-                        <h4>Хотите постирать шторы?</h4>
+                    <div class="col-md-6">
+                        <h4 class="d-md-block d-lg-block d-none">Хотите постирать шторы?</h4>
                         <p class="sub-title">Первая стирка для вас со скидкой в <span>50%</span>! <br>
                             Заполняйте форму и экономьте <br>
                             <span>половину</span> стоимости услуги </p>
@@ -509,19 +573,24 @@
 
         <section class="showroom">
             <div class="container">
-                <h4>ПРИГЛАШАЕМ ВАС К НАМ В ШОУРУМ</h4>
+                <h4>ПРИГЛАШАЕМ ВАС К НАМ В ШОУ-РУМ</h4>
+                <div class="time d-md-block d-lg-none">
+                    <p class="worktime"><span> Время работы:</span> Пн - Пт 10:00 - 18:00 <br> Сб - Вс 11:00 - 19:00</p>
+                </div>
                 <div class="row first">
-                    <div class="col-lg-6">
+                    <div class="col-ld-6 col-md-5">
                         <div class="col-content">
                             <div class="holder">
                                 <div class="phone">
                                     <p class="title">
                                         Телефоны:
                                     </p>
-                                    <a href="tel:+380638442311"> +38(063) 844 23 11</a>
-                                    <a href="tel:+380638442311"> +38(063) 844 23 11</a>
+                                    <div class="phone-inner">
+                                        <a href="tel:+380638442311"> +38(063) 844 23 11</a>
+                                        <a href="tel:+380638442311"> +38(063) 844 23 11</a>
+                                    </div>
                                 </div>
-                                <div class="time">
+                                <div class="time d-md-none d-none d-lg-block">
                                     <p class="title">
                                         Время работы:
                                     </p>
@@ -568,32 +637,35 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-ld-6 col-md-7 map">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120712.8393118066!2d30.474545307406913!3d50.388912637060564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c91d605130af%3A0x2a2030d0ad392253!2z0LLRg9C70LjRhtGPINCc0LDRgNGI0LDQu9CwINCa0L7QvdGU0LLQsCwgMTAvMSwg0JrQuNGX0LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sru!4v1582624934612!5m2!1sru!2sru"
                                 width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                     </div>
                 </div>
 
+                <p class="worktime"><span> Время работы:</span> Пн - Пт 10:00 - 18:00 Сб - Вс 11:00 - 19:00</p>
+
                 <div class="row second">
 
-                    <div class="col-lg-6">
+                    <div class="col-ld-6 col-md-5">
                         <div class="col-content">
                             <div class="holder">
                                 <div class="phone">
                                     <p class="title">
                                         Телефоны:
                                     </p>
-                                    <a href="tel:+380638442311"> +38(063) 844 23 11</a>
-                                    <a href="tel:+380638442311"> +38(063) 844 23 11</a>
+                                    <div class="phone-inner">
+                                        <a href="tel:+380638442311"> +38(063) 844 23 11</a>
+                                        <a href="tel:+380638442311"> +38(063) 844 23 11</a>
+                                    </div>
                                 </div>
-                                <div class="time">
+                                <div class="time d-md-none d-none d-lg-block">
                                     <p class="title">
                                         Время работы:
                                     </p>
 
                                     <p>Пн - Пт 10:00 - 18:00 </p>
                                     <p>Сб - Вс 11:00 - 19:00</p>
-
                                 </div>
                             </div>
 
@@ -634,9 +706,27 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-ld-6 col-md-7">
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6354.359596560293!2d30.613399579973418!3d50.403937413959255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5a4bdb645b7%3A0x2331615ff8743c9c!2z0JTQvdC10L_RgNC-0LLRgdC60LDRjyDQvdCw0LHQtdGA0LXQttC90LDRjywgMjXQkCwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sru!4v1582629116235!5m2!1sru!2sru"
                                 width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    </div>
+
+                    <p class="subscr2 d-none">
+                        Подписывайтесь на наши социальные сети
+                    </p>
+
+                    <div class="social2 d-none">
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/facebook.png" alt="Facebook">
+                            </div>
+                        </a>
+
+                        <a href="#">
+                            <div class="image">
+                                <img src="images/inst.png" alt="Instagram">
+                            </div>
+                        </a>
                     </div>
 
                 </div>
@@ -648,7 +738,7 @@
         <section class="contacts">
             <div class="container">
                 <div class="row d-flex justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <a class="item telegram" href="#">
                             <span class="icon-telegram-plane"></span>
                             <h6>Написать <br> в Telegram</h6>
@@ -657,7 +747,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <a class="item viber" href="#" style="background: #F38680;">
                             <span class="icon-phone-volume"></span>
                             <h6>Написать <br> в Viber</h6>
@@ -666,7 +756,7 @@
                         </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-6 d-flex justify-content-center">
+                    <div class="col-md-4 d-flex justify-content-center">
                         <div class="item phone">
                             <span class="icon-phone-alt"></span>
                             <h6>Позвонить <br> нам</h6>
@@ -688,72 +778,72 @@
                 <div class="row">
                     <h4>У НАС ВЫ ВСЕГДА МОЖЕТЕ НАЙТИ ШИРОКИЙ ВЫБОР <br> СОЛНЦЕЗАЩИТНЫХ СИСТЕМ И КАРНИЗОВ ДЛЯ ВАШИХ
                         ИЗДЕЛИЙ </h4>
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="#popup" class="btn popup-link"
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-md-flex justify-content-md-center holder">
+                        <a href="#popup" class="btn popup-link link"
+                           onclick="setNameScroll('Римские и рулонные, Солнцезащитные системы и карнизы');">
+                            <div class="item">
+                                <div class="image">
+                                    <img src="images/ch1.png" alt="Римские и рулонные">
+                                </div>
+                                <p>Римские и рулонные</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-md-flex justify-content-md-center holder">
+                        <a href="#popup" class="btn popup-link link"
+                           onclick="setNameScroll('Аксессуары, Солнцезащитные системы и карнизы');">
+                            <div class="item">
+                                <div class="image">
+                                    <img src="images/ch2.png" alt="Аксессуары">
+                                </div>
+                                <p>Аксессуары </p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-md-flex justify-content-md-center holder">
+                        <a href="#popup" class="btn popup-link link"
                            onclick="setNameScroll('Жалюзи, Солнцезащитные системы и карнизы');">
                             <div class="item">
                                 <div class="image">
-                                    <img src="images/choice1.png" alt="Жалюзи">
+                                    <img src="images/ch3.png" alt="Жалюзи">
                                 </div>
                                 <p>Жалюзи</p>
                             </div>
                         </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="#popup" class="btn popup-link"
-                           onclick="setNameScroll('Римские и рулонные, Солнцезащитные системы и карнизы');">
-                            <div class="item">
-                                <div class="image">
-                                    <img src="images/choice2.png" alt="Римские и рулонные">
-                                </div>
-                                <p>Римские и рулонные </p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="#popup" class="btn popup-link"
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-md-flex justify-content-md-center holder">
+                        <a href="#popup" class="btn popup-link link"
                            onclick="setNameScroll('Профильный карниз, Солнцезащитные системы и карнизы');">
                             <div class="item">
                                 <div class="image">
-                                    <img src="images/choice3.png" alt="Профильный карниз">
+                                    <img src="images/ch4.png" alt="Профильный карниз">
                                 </div>
                                 <p>Профильный карниз</p>
                             </div>
                         </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="#popup" class="btn popup-link"
-                           onclick="setNameScroll('Металический карниз, Солнцезащитные системы и карнизы');">
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-md-flex justify-content-md-center holder">
+                        <a href="#popup" class="btn popup-link link"
+                           onclick="setNameScroll('Кованный карниз, Солнцезащитные системы и карнизы');">
                             <div class="item">
                                 <div class="image">
-                                    <img src="images/choice4.png" alt="Металический карниз">
+                                    <img src="images/ch5.png" alt="Кованный карниз">
                                 </div>
-                                <p>Металический карниз</p>
+                                <p>Кованный карниз</p>
                             </div>
                         </a>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="#popup" class="btn popup-link"
-                           onclick="setNameScroll('Струнный карниз, Солнцезащитные системы и карнизы');">
+                    <div class="col-lg-4 col-md-6 col-sm-6 d-md-flex justify-content-md-center holder">
+                        <a href="#popup" class="btn popup-link link"
+                           onclick="setNameScroll('Карнизы с электроуправлением, Профильный карниз');">
                             <div class="item">
                                 <div class="image">
-                                    <img src="images/choice5.png" alt="Струнный карниз">
-                                </div>
-                                <p>Струнный карниз</p>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 col-sm-6">
-                        <a href="#popup" class="btn popup-link"
-                           onclick="setNameScroll('Карнизы с электроуправлением, Солнцезащитные системы и карнизы');">
-                            <div class="item">
-                                <div class="image">
-                                    <img src="images/choice6.png" alt="Карнизы с электроуправлением">
+                                    <img src="images/ch6.png" alt="Карнизы с электроуправлением">
                                 </div>
                                 <p>Карнизы с электроуправлением</p>
                             </div>
@@ -769,21 +859,22 @@
                         Скачать полный прайс
                     </a>
                 </div>
+                <div class="examples">
+                    <h4 class="works" id="examples">Примеры наших работ</h4>
 
-                <h4 class="works" id="examples">Примеры наших работ</h4>
-
-                <div class="examples-slider">
-                    <div class="image-ex">
-                        <img src="images/examples1.png" alt="example">
-                    </div>
-                    <div class="image-ex">
-                        <img src="images/examples2.png" alt="example">
-                    </div>
-                    <div class="image-ex">
-                        <img src="images/examples1.png" alt="example">
-                    </div>
-                    <div class="image-ex">
-                        <img src="images/examples2.png" alt="example">
+                    <div class="examples-slider">
+                        <div class="image-ex">
+                            <img src="images/examples1.png" alt="example">
+                        </div>
+                        <div class="image-ex">
+                            <img src="images/examples2.png" alt="example">
+                        </div>
+                        <div class="image-ex">
+                            <img src="images/examples1.png" alt="example">
+                        </div>
+                        <div class="image-ex">
+                            <img src="images/examples2.png" alt="example">
+                        </div>
                     </div>
                 </div>
 
@@ -889,8 +980,17 @@
 
     <footer class="footer" id="footer">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
+            <div class="row d-md-flex align-items-md-center">
+                <div class="col-lg-3 col-md-5 col-12">
+                    <div class="time top d-none">
+                        <p class="title">
+                            Время работы:
+                        </p>
+
+                        <p>Пн - Пт 10:00 - 18:00 </p>
+                        <p>Сб - Вс 11:00 - 19:00</p>
+                    </div>
+
                     <div class="phone">
                         <p class="title">
                             Телефоны:
@@ -913,7 +1013,7 @@
                         <p>Киев, ул. Маршала Конева 10/1</p>
                     </div>
 
-                    <div class="time">
+                    <div class="time time2">
                         <p class="title">
                             Время работы:
                         </p>
@@ -923,12 +1023,12 @@
                     </div>
                 </div>
 
-                <div class="col-lg-5">
+                <div class="col-lg-5 col-md-7 col-12">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6354.359596560293!2d30.613399579973418!3d50.403937413959255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5a4bdb645b7%3A0x2331615ff8743c9c!2z0JTQvdC10L_RgNC-0LLRgdC60LDRjyDQvdCw0LHQtdGA0LXQttC90LDRjywgMjXQkCwg0JrQuNC10LIsINCj0LrRgNCw0LjQvdCwLCAwMjAwMA!5e0!3m2!1sru!2sru!4v1582629116235!5m2!1sru!2sru"
-                            width="517" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                            width="100%" height="514" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
 
-                <div class="col-lg-4">
+                <div class="col-lg-4 col-md-12 col-12">
                     <form class="order-main">
                         <h4 class="form-title"> Остались вопросы? </h4>
                         <input placeholder="имя*" type="text" name="name" required>

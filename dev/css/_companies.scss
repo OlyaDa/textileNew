@@ -18,6 +18,48 @@
     margin: 0 70px;
   }
 
+  //slider dots begin
+
+  .slick-dots {
+    position: absolute;
+    bottom: -51px;
+    display: block;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    right: 0;
+  }
+
+  .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    cursor: pointer;
+    margin: 0 18px 0 18px;
+    background: #9696C8;
+    border: 1px solid #6566A7;
+    border-radius: 50%;
+  }
+
+  .slick-dots li.slick-active {
+    position: relative;
+    display: inline-block;
+    background: #525395;
+    border: 1px solid #2B2C67;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .slick-dots li button:before {
+    content: "";
+  }
+
+  //slider dots end
+
   ///slick-prev slick-next
 
   .slick-prev:before, .slick-next:before {
@@ -25,11 +67,11 @@
   }
 
   .slick-prev.slick-arrow {
-    left: -45px;
+    left: 0;
   }
 
   .slick-next {
-    right: -45px;
+    right: 0;
   }
 
   .arrow {
@@ -54,11 +96,6 @@
     z-index: 1;
   }
 
-  .slick-prev:active, .slick-next:active {
-    //color: #fff;
-    //border: 1px solid #2e9233;
-    //background: #2e9233;
-  }
   ///slick-prev slick-next end
 
   .companies-slider {
@@ -67,61 +104,48 @@
 
   //media
 
-  @media (max-width: 1350px) {
-    .slick-prev.slick-arrow {
-      left: 0;
-    }
-
-    .slick-next {
-      right: 0;
-    }
-  }
-
   @media (max-width: 991px) {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 44px 0 80px 0;
 
     h4 {
-      margin-bottom: 20px;
-    }
-
-    .slick-prev, .slick-next {
-      bottom: 23%;
+      margin-bottom: 58px;
     }
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 540px) {
+    padding: 65px 0 64px 0;
+
     h4 {
-      font-size: 38px;
-      line-height: 115.5%;
-      margin-bottom: 20px;
-    }
-  }
-
-  @media (max-width: 700px) {
-
-    .icon-left:before, .icon-right:before {
-      font-size: 16px;
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 13px;
     }
 
-    .slick-prev:before, .slick-next:before {
-      font-size: 0;
+    .slick-dots {
+      bottom: -38px;
     }
 
-    .slick-prev, .slick-next {
-      width: 55px;
-      height: 55px;
-      &:after {
-        height: 41px;
-        width: 41px;
-      }
+    .slick-dots li {
+      width: 9px;
+      height: 9px;
+      margin: 0 11px 0 11px;
+    }
+
+    .slick-dots li.slick-active {
+      width: 9px;
+      height: 9px;
     }
   }
 
   @media (max-width: 480px) {
+    padding: 19px 0 29px 0;
+
     h4 {
-      font-size: 26px;
-      line-height: 115.5%;
+      margin-bottom: 11px;
+    }
+
+    .image {
+      margin: 0 40px;
     }
   }
 }

@@ -118,11 +118,6 @@
     z-index: 1;
   }
 
-  .slick-prev:active, .slick-next:active {
-    //color: #fff;
-    //border: 1px solid #2e9233;
-    //background: #2e9233;
-  }
   ///slick-prev slick-next end
 
   //slider dots begin
@@ -171,39 +166,122 @@
   //media
 
   @media (max-width: 991px) {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 36px 0 31px 0;
 
     h4 {
-      margin-bottom: 20px;
+      font-size: 24px;
+      line-height: 29px;
+      margin: 0 auto 34px auto;
     }
 
-    .image {
-      margin-bottom: 30px;
+    .item {
+      margin-bottom: 54px;
+    }
+
+    .button {
+      margin-bottom: 77px;
+
+      .btn {
+        padding: 18px 95px;
+      }
+    }
+
+    .works {
+      margin-bottom: 48px;
+    }
+
+
+    .slick-prev.slick-arrow {
+      left: -10px;
+    }
+
+    .slick-next {
+      right: -10px;
+    }
+
+
+    .slick-dots {
+      bottom: -55px;
+    }
+
+
+    .slick-dots li {
+      width: 10px;
+      height: 10px;
+      margin: 0 13px 0 13px;
+    }
+
+    .slick-dots li.slick-active {
+      width: 10px;
+      height: 10px;
     }
   }
 
-  @media (max-width: 768px) {
-    h4 {
-      font-size: 38px;
-      line-height: 115.5%;
-      margin-bottom: 20px;
+  @media (max-width: 767px) {
+    padding: 29px 0;
+
+    .item {
+      margin-bottom: 29px;
+    }
+
+    .button {
+      margin-top: 18px;
+      margin-bottom: 82px;
+    }
+
+    .works {
+      margin-bottom: 33px;
+    }
+  }
+
+  @media (max-width: 576px) {
+
+    .link {
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .button {
+     .btn {
+       padding: 18px 70px;
+     }
     }
   }
 
   @media (max-width: 480px) {
-    h4 {
-      font-size: 26px;
-      line-height: 115.5%;
-    }
-  }
 
-  @media (max-width: 380px) {
+    .link {
+      width: 100vw;
+    }
+
+    .holder {
+      padding: 0;
+    }
+
+    h4 {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 30px;
+      padding: 0 15px;
+    }
+
+    .image-ex {
+      margin: 0;
+    }
+
+    .works {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 16px;
+    }
 
     .button {
+      margin-bottom: 26px;
       .btn {
-        width: 100%;
-        padding: 12px 0;
+        padding: 18px 11px;
+        font-size: 19px;
+        line-height: 24px;
       }
     }
   }

@@ -102,189 +102,93 @@
   }
 
   //media
-  @media (max-width: 1315px) {
-    h2 {
-      font-size: 70px;
-      line-height: 120.4%;
-    }
-  }
-
-  @media (max-width: 1185px) {
-    .button {
-      .btn {
-        padding: 16px 24px;
-      }
-    }
-
-    .button.download {
-      .btn {
-        padding: 16px 34px;
-      }
-    }
-  }
-
-  @media (max-width: 1150px) {
-    h2 {
-      font-size: 55px;
-    }
-
-    .sub-title {
-      font-size: 18px;
-      line-height: 155.5%;
-    }
-
-    .item {
-      margin-top: 20px;
-    }
-
-    .button {
-      .btn {
-        padding: 16px 8px;
-      }
-    }
-
-    .button.download {
-      .btn {
-        padding: 16px 8px;
-      }
-    }
-  }
 
   @media (max-width: 991px) {
     h2 {
-      font-size: 45px;
+      font-size: 30px;
+      line-height: 36px;
+      letter-spacing: 0.04em;
+
+      span {
+        font-size: 20px;
+        line-height: 24px;
+      }
     }
 
     .button {
-      width: 424px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .button {
-      margin-bottom: 20px;
+      display: inline-block;
+      margin-bottom: 93px;
       .btn {
-        width: 424px;
+        padding: 14px 25px;
       }
-    }
-
-    .button.download {
-      margin-bottom: 0;
-      max-width: 358px;
-      .btn {
-        width: 424px;
-      }
-    }
-
-    .items .item .title {
-      font-size: 45px;
-      line-height: 41px;
-    }
-  }
-
-  @media (max-width: 860px) {
-    .items {
-      flex-direction: column;
-      align-items: center;
-
-      .item {
-        text-align: center;
-      }
-    }
-    .buttons {
-      margin-bottom: 20px;
-    }
-  }
-
-  @media (max-width: 767px) {
-    background: url("../../public/images/banner.png") top right no-repeat;
-    background-size: cover;
-
-    .banner-inner {
-      padding-bottom: 0;
-    }
-
-    h2 {
-      text-align: center;
-    }
-
-    .sub-title {
-      text-align: center;
     }
 
     .text {
-      width: 100%;
-    }
-
-    .buttons {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      margin-bottom: 20px;
+      padding: 10px 0;
     }
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 768px) {
+
+    .image {
+      display: none;
+    }
+
     h2 {
-      font-size: 31px;
-      line-height: 146.5%;
-      margin-top: 40px;
-    }
-
-    .items .item {
-      width: 100%;
-    }
-
-    .sub-title {
-      font-size: 11px;
-      line-height: 175.5%;
-      margin-bottom: 52px;
-    }
-
-    .buttons {
-      margin-bottom: 25px;
-      width: 100%;
-    }
-
-    .button {
-      width: 100%;
-      .btn {
-        font-size: 14px;
-        line-height: 157%;
-        width: 100%;
-        padding: 14px 0;
+      width: 85%;
+      padding: 30px 0 23px 0;
+      span {
+        font-size: 18px;
+        line-height: 22px;
       }
     }
 
-    .button.download {
-      max-width: 100%;
+    .button {
+      margin-bottom: 93px;
+      .btn {
+        padding: 13px 37px;
+      }
     }
 
-    .holder {
-      width: 100%;
-    }
-
-    .right-body p {
-      font-size: 14px;
-      line-height: 170.5%;
-    }
-
-    .item.middle {
-      margin-top: 40px;
-      margin-bottom: 40px;
+    .text {
+      font-size: 11px;
+      line-height: 13px;
+      padding: 13px 0;
     }
   }
 
-  @media (max-width: 380px) {
+  @media (max-width: 490px) {
     h2 {
-      margin-top: 20px;
+      width: 85%;
+      padding: 24px 0 13px 0;
+      font-size: 15px;
+      line-height: 18px;
+      span {
+        font-size: 11px;
+        line-height: 13px;
+      }
     }
-  }
 
-  @media (max-width: 330px) {
-    h2 {
-      font-size: 30px;
+    .line {
+      width: 115px;
+    }
+
+    .button {
+      .btn {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 13px 22px;
+
+        span {
+          display: none;
+        }
+      }
+    }
+
+    .text {
+      font-size: 11px;
+      line-height: 13px;
+      padding: 13px 0;
     }
   }
 }

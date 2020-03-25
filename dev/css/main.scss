@@ -7,7 +7,6 @@ $caption_text: Cera Pro, sans-serif;
 @import "showroom";
 @import "services";
 @import "contacts";
-@import "examples";
 @import "reviews";
 @import "washing";
 @import "models";
@@ -16,7 +15,6 @@ $caption_text: Cera Pro, sans-serif;
 @import "companies";
 @import "footer";
 @import "thanks";
-@import "second-scroll";
 
 
 @font-face {
@@ -283,6 +281,13 @@ img {
   }
 }
 
+@media (max-width: 340px) {
+  .devgen {
+    a {
+      font-size: 14px;
+    }
+  }
+}
 
 
 
@@ -413,11 +418,7 @@ img {
 
   ///media
 
-  @media (max-width: 380px) {
-    p {
-      br {
-        display: none;
-      }
-    }
+  @media (max-width: 500px) {
+    padding: 8px 15px 15px 15px;
   }
 }

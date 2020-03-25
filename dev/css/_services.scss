@@ -32,9 +32,14 @@
   .services-inner {
     display: flex;
     justify-content: center;
+    flex-wrap: nowrap;
   }
 
-  .image img{
+  .holder {
+    flex-wrap: nowrap;
+  }
+
+  .image img {
     border-radius: 0 0 10px 10px;
   }
 
@@ -164,74 +169,107 @@
 
   //media
 
-  @media (max-width: 1295px) {
-    .active {
-      display: flex !important;
-      width: 100%;
-
-      button {
-        display: none;
-      }
+  @media (max-width: 1280px) {
+    .services-inner {
+      flex-wrap: wrap;
     }
-    .cls {
-      display: none !important;
+
+    .holder {
+      flex-wrap: nowrap;
+      width: 100%;
+      justify-content: space-evenly;
     }
 
     .item {
-      background: transparent !important;
-      margin-bottom: 30px;
-    }
-
-    .services-inner {
-      flex-direction: column;
-      justify-content: space-evenly;
+      width: 35%;
+      margin-bottom: 29px;
     }
   }
 
   @media (max-width: 991px) {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 29px 0 67px 0;
 
     h4 {
-      margin-bottom: 20px;
-    }
-  }
-
-  @media (max-width: 768px) {
-    h4 {
-      font-size: 38px;
-      line-height: 115.5%;
-      margin-bottom: 20px;
+      font-size: 24px;
+      line-height: 29px;
+      margin-bottom: 17px;
     }
 
     .item {
-      margin-bottom: 20px;
-    }
-
-    .holder {
-      flex-direction: column;
-      align-items: center;
+      width: 45%;
+      margin-bottom: 29px;
     }
   }
 
-  @media (max-width: 510px) {
-    .active h6 {
-      font-size: 20px;
+  @media (max-width: 767px) {
+    padding: 29px 0;
+
+    h4 {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 13px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 22px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 21px 0;
+    }
+
+    .item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  @media (max-width: 576px) {
+    .holder {
+      flex-wrap: wrap;
+    }
+
+    .item {
+      width: 85%;
+      margin-right: auto;
+      margin-left: auto;
+      margin-bottom: 24px;
     }
   }
 
   @media (max-width: 480px) {
-    h4 {
-      font-size: 26px;
-      line-height: 115.5%;
-    }
-  }
+    padding: 21px 0 24px 0;
 
-  @media (max-width: 400px) {
-    .active {
-      .overlay {
-        background: linear-gradient(180deg, rgba(32, 32, 32, 0.2) -5%, #202020 100%);
-      }
+    h4 {
+      font-size: 18px;
+      line-height: 22px;
+      margin-bottom: 30px;
+      padding: 0 15px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 22px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 17px 0;
+    }
+
+    .item {
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 21px;
+    }
+
+    .container {
+      padding: 0;
     }
   }
 
