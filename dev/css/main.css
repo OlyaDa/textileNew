@@ -1951,6 +1951,14 @@
     line-height: 29px;
     text-align: center;
     color: #000000;
+    margin-bottom: 53px; }
+  .departure .designer {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.6);
     margin-bottom: 0; }
   @media (max-width: 991px) {
     .departure {
@@ -1966,6 +1974,8 @@
         margin-bottom: 22px;
         max-width: 285px;
         text-indent: 20px; }
+      .departure .text {
+        margin-bottom: 2px; }
       .departure .button {
         margin-top: 0;
         margin-bottom: 15px; }
@@ -2005,7 +2015,9 @@
         margin: 0 auto 20px; }
       .departure .bottom-text {
         max-width: 100%;
-        text-align: center; } }
+        text-align: center; }
+      .departure .text {
+        margin-bottom: 20px; } }
   @media (max-width: 480px) {
     .departure {
       padding: 29px 0; }
@@ -2033,7 +2045,8 @@
         line-height: 22px;
         max-width: 195px;
         margin-left: auto;
-        margin-right: auto; }
+        margin-right: auto;
+        margin-bottom: 20px; }
       .departure .button {
         margin-top: 0;
         margin-bottom: 12px; }
