@@ -1665,8 +1665,8 @@
       max-width: 290px; }
     .reviews .item .image {
       margin-right: 13px;
-      width: 174px;
-      height: 174px; }
+      width: 69px;
+      height: 69px; }
     .reviews .item .bottom {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1691,7 +1691,7 @@
       font-size: 18px;
       line-height: 22px;
       color: #E19D9C;
-      margin-bottom: 30px; }
+      margin-bottom: 0px; }
   .reviews .reviews-slider {
     outline: none !important; }
   .reviews .slick-prev:before, .reviews .slick-next:before {
@@ -1777,8 +1777,8 @@
   @media (max-width: 480px) {
     .reviews .item .image {
       margin-right: 13px;
-      width: 110px;
-      height: 110px; }
+      width: 69px;
+      height: 69px; }
     .reviews h4 {
       font-size: 18px;
       line-height: 22px;
@@ -1810,7 +1810,7 @@
       font-size: 18px;
       line-height: 22px;
       color: #E19D9C;
-      margin-bottom: 30px; } }
+      margin-bottom: 0px; } }
 
 .washing {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(41, 41, 61, 0.6)), to(rgba(65, 25, 34, 0.6))), url("../../public/images/bg-washing.png") center no-repeat;
