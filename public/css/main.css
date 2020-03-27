@@ -2190,6 +2190,8 @@
     line-height: 32px;
     color: #E19D9C;
     margin-bottom: 54px; }
+    .departure .sub-title span {
+      color: #BE8942; }
   .departure p {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
