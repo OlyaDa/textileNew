@@ -1710,7 +1710,8 @@
     line-height: 29px;
     text-align: center;
     color: #355672;
-    margin-bottom: 13px; }
+    margin-bottom: 68px;
+    text-transform: uppercase; }
   .models a {
     padding: 0; }
   .models .sub-title {
@@ -1810,7 +1811,7 @@
       .models h4 {
         font-size: 18px;
         line-height: 22px;
-        margin-bottom: 13px; }
+        margin-bottom: 20px; }
       .models .sub-title {
         font-size: 18px;
         line-height: 22px;
@@ -1859,7 +1860,7 @@
     .models {
       padding: 9px 0 12px 0; }
       .models h4 {
-        margin-bottom: 0; }
+        margin-bottom: 20px; }
       .models a {
         width: 100%; }
       .models p {
@@ -1920,7 +1921,11 @@
     font-size: 24px;
     line-height: 29px;
     color: #000000;
-    margin-bottom: 25px; }
+    margin-bottom: 25px;
+    text-indent: 20px; }
+    .departure p span {
+      color: #BE8942;
+      font-weight: bold; }
   .departure .button {
     margin-top: 48px;
     text-align: center;
@@ -1959,7 +1964,8 @@
     font-size: 18px;
     line-height: 22px;
     color: rgba(0, 0, 0, 0.6);
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    text-indent: 0; }
   @media (max-width: 991px) {
     .departure {
       padding-top: 41px;
@@ -1972,7 +1978,6 @@
           display: block; }
       .departure p {
         margin-bottom: 22px;
-        max-width: 285px;
         text-indent: 20px; }
       .departure .text {
         margin-bottom: 2px; }
@@ -2033,7 +2038,7 @@
       .departure p {
         font-size: 14px;
         line-height: 17px;
-        text-indent: 0;
+        text-indent: 10px;
         margin-bottom: 18px; }
       .departure .container-img {
         padding: 0; }
