@@ -52,6 +52,7 @@
 
   .time {
     margin-right: 75px;
+    max-width: 180px;
 
     br {
       display: none;
@@ -117,6 +118,7 @@
       color: #424242;
       margin-bottom: 38px;
       text-align: center;
+      display: block !important;
 
       span {
         font-weight: bold;
@@ -137,6 +139,7 @@
 
     .time {
       margin-right: 75px;
+      max-width: 100%;
     }
 
     iframe {

@@ -1052,7 +1052,8 @@
     text-decoration: none;
     margin-bottom: 13px; }
   .showroom .time {
-    margin-right: 75px; }
+    margin-right: 75px;
+    max-width: 180px; }
     .showroom .time br {
       display: none; }
   .showroom .phone .title, .showroom .mail .title, .showroom .time .title, .showroom .address .title {
@@ -1094,7 +1095,8 @@
         line-height: 22px;
         color: #424242;
         margin-bottom: 38px;
-        text-align: center; }
+        text-align: center;
+        display: block !important; }
         .showroom .worktime span {
           font-weight: bold; }
       .showroom .first {
@@ -1104,7 +1106,8 @@
         .showroom .social a {
           text-decoration: none; }
       .showroom .time {
-        margin-right: 75px; }
+        margin-right: 75px;
+        max-width: 100%; }
       .showroom iframe {
         height: 411px !important; }
       .showroom .time .title {
